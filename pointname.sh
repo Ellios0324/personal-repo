@@ -6,7 +6,6 @@
 #4 唐悠悠
 #5 陈美嘉
 #6 吕子乔
-#...
 line=`cat name.txt|wc -l`
 num=`shuf -i 1-$line -n 1`#在名单内生成一个随机序号，每一行对应一个人
 for (( i=3;i>=1;i-- ))
